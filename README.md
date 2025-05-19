@@ -32,6 +32,11 @@ I had issuses importing the database and creating the table. I resolved this by 
 The challenge here is that I was in a dilemma in including customers with zero transaction. 
 
 ## QUESTION 3
+1. I used CTE to first isolate the latest inflow transaction per plan which ensures that I access user activity based solely on actual deposits. 
+
+2. I then joined this data with the plans_plan table and filtered for accounts where the number of days since last inflow is more than 365 days
+
+3. I then limited the scope to just savings and investments plans. 
 
 ## QUESTION 4
 1. I began by isolating, non-deleted customers with successful transactions, ensuring the data reflects engaged users only.
