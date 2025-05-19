@@ -13,6 +13,22 @@ This repository contains solutions to CowryWise Data Analytics SQL Assessment
 
 5.The final value is then sorted in desecending order.
 
+## QUESTION 2
+
+1. I created a CTE for the customers metrics by joining the two tables using LEFT JOIN. Using is_active =1 and is_account_deleted = 0 to include all active and non-deleted users were included and even those without transactions as 0. They might have future transactions so they are included in the analysis.
+
+2. I included only successful transactions excluding pending or failed transactions
+
+3. I used number of months since sign up and prevented division by zero by using GREATEST.
+
+4. The total number of transactions per customer and average transactions was calculated.
+
+5. The CASE statement was used to categorise the customers based on their average transactions per month
+
+6. Finally, I aggregrated by category and ordered the result.
+
+The challenge here is that I was in a dilemma in including customers with zero transaction. 
+
 ## QUESTION 4
 1. I began by isolating, non-deleted customers with successful transactions, ensuring the data reflects engaged users only.
 
