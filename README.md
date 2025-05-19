@@ -1,7 +1,7 @@
 # DataAnalytics-Assessment
 This repository contains solutions to CowryWise Data Analytics SQL Assessment
 
-**QUESTION 1**
+# QUESTION 1
 
 1.I first joined the user_customuser, plans_plan and savings_savingsaccount tables using the foreign key relationships.
 
