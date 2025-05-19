@@ -1,6 +1,8 @@
 # DataAnalytics-Assessment
 This repository contains solutions to CowryWise Data Analytics SQL Assessment
 
+I had issuses importing the database and creating the table. I resolved this by using phpMyAdmin. File size was large but I increased the file size limit on the Config part of the phpMyAdmin which allowed me to upload the file and the database and tables were created automatically
+
 ## QUESTION 1
 
 1.I first joined the user_customuser, plans_plan and savings_savingsaccount tables using the foreign key relationships.
