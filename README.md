@@ -31,6 +31,8 @@ I had issuses importing the database and creating the table. I resolved this by 
 
 The challenge here is that I was in a dilemma in including customers with zero transaction. 
 
+## QUESTION 3
+
 ## QUESTION 4
 1. I began by isolating, non-deleted customers with successful transactions, ensuring the data reflects engaged users only.
 
